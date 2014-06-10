@@ -1,0 +1,27 @@
+{
+  "name": "buster-extension-iife",
+  "version": "0.0.0",
+  "description": "Extension to wrap resources buster loads in an IIFE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:insidewarehouse/buster-extension-iife.git"
+  },
+  "keywords": [
+    "buster.js",
+    "buster",
+    "extension"
+  ],
+  "author": "Dominykas Blyžė, InsideWarehouse <hello@dominykas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/insidewarehouse/buster-extension-iife/issues"
+  },
+  "homepage": "https://github.com/insidewarehouse/buster-extension-iife",
+  "devDependencies": {
+    "buster": "^0.7.13"
+  }
+}
