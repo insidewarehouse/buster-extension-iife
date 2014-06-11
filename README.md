@@ -1,5 +1,7 @@
 # Buster extension: IIFE #
 
+[![Build Status](https://travis-ci.org/insidewarehouse/buster-extension-iife.svg?branch=master)](https://travis-ci.org/insidewarehouse/buster-extension-iife)
+
 Wrap every test file in a self invoking function to create a closure before sending tests to the browser.
 
 * Good for browser testing (doesn't leak globals between test runs, if you do the right thing)
