@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "description": "Extension to wrap resources buster loads in an IIFE",
   "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/grunt-cli/bin/grunt test"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,11 @@
   },
   "homepage": "https://github.com/insidewarehouse/buster-extension-iife",
   "devDependencies": {
-    "buster": "^0.7.13"
+    "buster": "0.7.x",
+    "grunt": "0.4.x",
+    "grunt-buster": "0.3.x",
+    "grunt-cli": "0.1.x",
+    "grunt-release": "0.7.x",
+    "phantomjs": "1.9.x"
   }
 }
