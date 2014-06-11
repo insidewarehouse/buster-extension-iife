@@ -7,6 +7,7 @@ module.exports = function (grunt) {
 		}
 	});
 	grunt.loadNpmTasks('grunt-buster');
+	grunt.loadNpmTasks('grunt-release');
 
 	grunt.registerTask("default", ["test"]);
 	grunt.registerTask("test", ["buster"]);
